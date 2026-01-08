@@ -1,0 +1,52 @@
+# --- .NET ---
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]og/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.rsuser
+*.pidb
+*.booproj
+*.svclog
+*.pdb
+*.cache
+*.log
+*.tmp
+
+# Visual Studio
+.vs/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# --- Node / Vite / React ---
+node_modules/
+dist/
+build/
+.vite/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- VS Code (local) ---
+.vscode/
+
+# --- Env files (local secrets) ---
+.env
+.env.*
+
+# --- Local databases / dumps (if any) ---
+*.sqlite
+*.sqlite3
