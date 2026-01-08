@@ -50,3 +50,5 @@ Desktop.ini
 # --- Local databases / dumps (if any) ---
 *.sqlite
 *.sqlite3
+
+.github/
